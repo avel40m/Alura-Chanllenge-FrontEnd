@@ -1,0 +1,38 @@
+.experiencia__ahorcado{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.experiencia__ahorcado__descripcion{
+    align-self: center;
+    text-align: center;
+}
+
+.experiencia__ahorcado__descripcion h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.experiencia__ahorcado__descripcion p{
+    font-size: 1rem;
+    padding: 2rem 0;
+}
+
+.experiencia__ahorcado__boton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiencia__ahorcado__boton a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border: 2px solid #41923a;
+    transition: all 0.4s;
+}
+
+.experiencia__ahorcado__boton a:hover{
+    background-color: #41923a;
+    color: white;
+}

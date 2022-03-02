@@ -1,0 +1,45 @@
+.presentacion{
+    display: flex;
+    justify-content: center;
+    padding: 7rem;
+    align-items: center;
+    
+}
+
+.presentacion__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.presentacion__descripcion{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentacion__item{
+    padding: 2em 1em;
+    display: flex;
+    gap: 3rem;
+}
+
+.presentacion__item__list{
+    font-size: 20px;
+}
+
+.presentacion__item__list a{
+    text-decoration: none;
+    color: var(--background-link-a);
+}
+
+.presentacion__item__list a::after{
+    content: "☚";
+    padding-left: 5px;
+}
+
+.presentacion__imagen img{
+   border-radius: 50%;
+   padding-top: 1em;
+}

@@ -1,0 +1,10 @@
+:root{
+    --background-color-body: #f5f5f5;
+    --background-link-a: #464646;
+    --bakcground-seccion: #eaf2fd;
+    --color-titulo:#3a3737;
+}
+
+body{
+    background-color: var(--background-color-body);
+}

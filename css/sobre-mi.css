@@ -1,0 +1,22 @@
+.sobre-mi > *{
+    background-color: var(--bakcground-seccion);
+    padding: 2rem 6rem;
+}
+
+.sobre-mi__titulo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.sobre-mi__descripcion{
+    width: 70%;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sobre-mi__firma{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,37 @@
+.hobbies{
+    background-color: var(--background-color-body) ;
+}
+
+.hobbies__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: var(--color-titulo);    
+}
+
+.hobbies__item{
+    display: flex;
+    padding-top: 1em;
+    justify-content: space-around;
+}
+
+.hobbies__item__list{
+    width: 12rem;
+    height: 12rem;
+    background-color: #FFFFFF;
+}
+
+.hobbies__item__list i{
+    font-size: 25px;
+    color: blue;
+    position: relative;
+    top: 7rem;
+    left: 1rem;
+}
+
+.hobbies__item__list p{
+    position: relative;
+    font-size: 20px;
+    top: 8rem;
+}

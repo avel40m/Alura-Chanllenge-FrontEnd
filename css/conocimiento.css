@@ -1,0 +1,37 @@
+.conocimiento{
+    background-color: var(--background-color-body) ;
+}
+
+.conocimiento__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: var(--color-titulo);    
+}
+
+.conocimiento__item{
+    display: flex;
+    padding-top: 1em;
+    justify-content: space-around;
+}
+
+.conocimiento__item__list{
+    width: 12rem;
+    height: 12rem;
+    background-color: #FFFFFF;
+}
+
+.conocimiento__item__list i{
+    font-size: 25px;
+    color: blue;
+    position: relative;
+    top: 7rem;
+    left: 1rem;
+}
+
+.conocimiento__item__list p{
+    position: relative;
+    font-size: 20px;
+    top: 8rem;
+}

@@ -1,0 +1,27 @@
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.navegacion__item{
+    display: flex;
+    gap: 2rem;
+}
+
+.navegacion__link a{
+    color: var(--background-link-a);
+    text-decoration: none;
+}
+
+.navegacion__link:last-child{
+    font-weight: bold;
+}
+
+.navegacion__titulo{
+    font-weight: bold;
+}
+
+.navegacion__titulo::before{
+    content: "✪";
+}

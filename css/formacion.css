@@ -1,0 +1,58 @@
+.formacion > *{
+    background-color: var(--bakcground-seccion);
+    padding: 3rem 6rem;
+}
+
+.formacion__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: var(--color-titulo);    
+}
+
+.formacion__item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacion__item__img1{
+    width: 50%;
+    height:auto;
+    background-image: url('../imagen/comunidadIT.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 7rem;
+    background-color: white;
+}
+
+.formacion__item__img2{
+    width: 50%;
+    height:auto;
+    background-image: url('../imagen/eggeducation.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 7rem;
+    background-color: white;
+}
+
+.formacion__item__img3{
+    width: 50%;
+    height:auto;
+    background-image: url('../imagen/alura.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 7rem;
+    background-color: white;
+}
+
+.formacion__item__descripcion h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-titulo);
+    padding:1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
