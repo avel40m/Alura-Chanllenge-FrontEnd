@@ -214,25 +214,26 @@
         <div class="contacto__formulario">
           <h2>Contacto</h2>
           <p>Para comunicarse envie un mensaje para contactarlo.</p>
-          <form action="">
+          <form action="" data-formulario>
+            <span data-error></span>
             <div class="contacto__input">
               <label for="">Nombre</label>
-              <input type="text" placeholder="Ingrese su nombre">
+              <input type="text" placeholder="Ingrese su nombre" data-tipo="nombre">
             </div>
             <div class="contacto__input">
               <label for="">Email</label>
-              <input type="email" placeholder="Ingrese su email">
+              <input type="email" placeholder="Ingrese su email" data-tipo="email">
             </div>            
             <div class="contacto__input">
               <label for="">Asunto</label>
-              <input type="text" placeholder="Ingrese el asunto">
+              <input type="text" placeholder="Ingrese el asunto" data-tipo="asunto">
             </div>
             <div class="contacto__input">
               <label for="">Ingrese su mensaje</label>
-              <textarea name="" id="" cols="2" rows="5"></textarea>
+              <textarea name="" id="" cols="2" rows="5" data-tipo="mensaje" placeholder="Ingrese su mensaje"></textarea>
             </div>
             <div class="contacto__input">
-              <input type="submit" value="enviar">
+              <input type="submit" value="enviar" disabled data-boton>
             </div>
           </form>
         </div>
@@ -245,4 +246,5 @@
       <h5>Desarrollador Front End Alura Oracle - 2022</h5>
     </footer>
   </body>
+  <script src="js/validar.js"></script>
 </html>

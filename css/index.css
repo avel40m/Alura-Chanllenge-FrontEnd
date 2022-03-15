@@ -8,3 +8,17 @@
 body{
     background-color: var(--background-color-body);
 }
+
+.error--validaciones{
+    color: red;
+    font-size: 20px;
+}
+
+.correcta--validacion{
+    border: 2px solid green;
+}
+
+.input--error{
+    border: 2px solid red;
+}
+

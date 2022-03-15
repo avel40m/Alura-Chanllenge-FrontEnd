@@ -51,16 +51,22 @@ input,textarea{
     border-bottom: 1px solid #3235ca;
 }
 
-input[type="submit"]{
+.boton-enviar{
     padding: 1rem 0;
     background-color: #3235ca;
     color: #FFFFFF;
     transition: 400ms all;
 }
 
-input[type="submit"]:hover{
+.boton-enviar:hover{
     cursor: pointer;
     color: #3235ca;
     border: 1px solid #3235ca;
     background-color: white;
+}
+
+.anular-boton{
+    background-color: gray;
+    color: white;
+    cursor: no-drop;
 }
